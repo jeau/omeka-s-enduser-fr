@@ -1,24 +1,22 @@
----
-title: Installing
----
+## Installation
 
-Basic instructions for installing from GitHub can be found in the [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) of the Omeka S github repository.
+Les instructions basiques pour procéder à l'installation à partir des sources sont précisées dans le [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) du dépôt github de Omeka S github.
 
-If you are installing from the released zip file, you can use the instructions on the ReadMe or follow these instructions for [Installing Omeka S Alpha on Reclaim Hosting via Command Line](http://bavatuesdays.com/installing-omeka-s-alpha-on-reclaim-hosting-via-command-line/), by Jim Groom. 
+Si vous effectuez une installation à partir d'une version publiée en archive `zip`, vous pouvez aussi suivre les instructions du [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) ou les indications du tutoriel de Jim Groom [Installing Omeka S Alpha on Reclaim Hosting via Command Line](http://bavatuesdays.com/installing-omeka-s-alpha-on-reclaim-hosting-via-command-line/) (en anglais). 
 
-Once you have successfully installed and configured the database.ini file, you can navigate to the location of your Omeka S install.
+Dès que vous avez correctement installé et configuré le fichier `database.ini`, vous pouvez rejoindre l'emplacement de votre installation Omeka S avec votre navigateur web.
 
-The first time you to the install site, you will need to enter information for the first user, along with basic information for your install. 
+Lors de cet accès, vous devrez indiquer des informations relatives au premier usager ainsi que des informations basiques sur votre installation. 
 
 ![Install dialog with options as described below](/files/os_install.png)
 
-For the first user, enter:
-* an *email* address
-* confirm the *email* address
-* a *password*
-* confirm the *password*
-* a *display name* for the User
+Pour le premier usager, entrez :
+* une adresse *mail* 
+* la confirmation de cette adresse *mail*
+* un *mot de passe*
+* la confirmation de ce *mot de passe*
+* de *nom à afficher* de cet usager
 
-Note that you can change all of these later in the [User](/user.md) management section of your install.
+Notez que vous pourrez ultérieurement changer ces données à partir de la section [User](/user.md) de l'interface d'administration de votre installation.
 
-You also need to enter an *Installation Title* and select your installation’s *Time Zone* from the dropdown. You can later changes these in the [Settings](/settings.md) section of your [Admin Dashboard](/admin-dashboard.md)
+Vous avez aussi besoin d'entrer le *Titre de l'installation* et sélectionner sa *Zone horaire* à partir du menu déroulant. Vous pourrez aussi changer ces informations ensuite dans la section [Settings](/settings.md) de votre [Tableau de bord](/admin-dashboard.md)
