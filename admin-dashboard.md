@@ -1,62 +1,60 @@
----
-title: Administrative Dashboard
----
+## Tableau de bord d'administration
 
-The administrative dashboard manages the content shared by all OmekaS sites and the core functionalities of the OmekaS installation. 
+Le tableau de bord d'administration permet de gérer les contenus partagés par tous les sites créés sur l'installation Omeka S et d'accéder aux fonctionnalités principales de cette installation.
 
-Admin Main Page
----------------------
-When a user logs in, the first page they see is the Admin Dashboard. 
+### Page principale d'administration
+
+Lorsqu'un usager se connecte, la première page à laquelle il accède est le tableau de bord d'administration.
 
 ![Admin dashboard full view](/files/admindashfullview.png)
 
-In addition to the left-hand navigation present on all pages (see below), the admin dashboard presents users with two boxes: Manage Resources and Manage Sites.
+En plus de la zone de navigation à gauche présente sur toutes les pages (voir ci-dessous), le tableau de bord d'administration présente deux zones : la gestion des ressources et et la gestion des sites.
 
-The *Manage Resources* box displays the following resources with their total count: [Items](/content/items.md), [Item Sets](/content/item-sets.md), [Vocabularies](/content/vocabularies.md), and [Resource Templates](/content/resource-template.md). Clicking on the label of the Resource will take you to the browse page; clicking the Plus button to the right of the label will take you to the add page for that resource type. 
+La zone gestion des ressource (*Manage Resources*) affiche les  liens vers les ressources suivantes avec leur nombre indiqué entre parenthèses : [Items](/content/items.md), [Lots d'items (Sets)](/content/item-sets.md), [Ontologie (Vocabularies)](/content/vocabularies.md), et les [Modèles de ressources (Resource Templates)](/content/resource-template.md).
+En cliquant sur l'étiquette de la ressource, vous accédez à la page de navigation de cette ressource. En cliquant sur le bouton Plus à droite de l'étiquette, vous accédez à la page d'ajout de ce type de ressource.
 
 ![Close up of manage resources and manage sites boxes](/files/admindashmanage.png)
 
-The *Manage Sites* box lists the [Sites](/sites/sites.md) on the install. Clicking on the site name will take you to the public view of the site; clicking the edit (pencil) button will take you to the Edit Site Info page for that site. 
+La zone *Administration des sites (Manage Sites)* liste les [Sites](/sites/sites.md) hébergés par l'installation. Cliquer sur le nom d'un site permet d'accéder à la partie publique de ce site. Clique sur le bouton d'édition (le crayon) permet d'accéder à la page d'information et d'édition de ce site.
 
 
-Left-hand navigation
----------------------
+### Navigation située à gauche
 
-The following content appears on the left side of the admin dashboard and on all administrative pages. 
+Le contenu suivant apparaît sur le côté gauche du tableau de bord ainsi que sur toutes les pages de l'interface d'administration de l'installation.
 
 ![View of the left hand navigation on the admin dashboard, which also appears consistently throughout the admin interface, with options as described below](/files/leftnav.png)
 
-In the upper left corner of the screen is a link displaying the title of the installation which will always take you back to the admin dashboard. 
+Dans le coin en haut à gauche est indiqué l'intitulé de l'installation. C'est un lien cliquable qui renvoie toujours au tableau de bord d'administration.
 
-Directly below the installation title is the message “Signed in as *User*” where *User* is the display name of the person logged in. Near the username (below or to the right, depending on window width) is the button to *Logout*. 
+Juste en dessous de ce titre se trouve le message "Signed in as *User*" où *User* est l'affichage du nom de l'usager qui est connecté. À (à droite ou en dessous en fonction de la largeur de la fenêtre d'affichage) proximité du nom de l'usager se trouve un bouton  *Logout*.
 
-Underneath the user information is a search field which has an option for advanced search (ellipses) in addition to the button to search (magnifying glass). Use this to search all items in the installation. 
+En dessous du nom de l'usager connecté, se trouve un champ de recherche auquel est associé une option de recherche avancée (points de suspension) en plus du bouton de recherche (loupe). Utilisez ce champ pour effectuer une recherche sur toutes les ressources de l'installation.
 
-Advanced search options (the ellipses) allow you to refine the search by Resource Type, limiting it to *Items*, *Item Sets*, or *Media* by clicking the radio button next to the Resource Type you want to search. 
+Les options de recherche avancée (points de suspension) permettent d'affiner la recherche par type de ressource ; en cliquant sur le bouton radio en regard d'un type de ressource, *items*, *item sets* (lots d'items) ou *médias* il est possible de restreindre la recherche à ce type de ressource.
 
 ![Advanced search options](/files/search.png)
 
-The left hand navigation of the dashboard is divided into sections related to function and user access:
+La partie centrale de la colonne de gauche du tableau de bord est divisée en deux sections relatives aux sites, aux ressources et aux fonctions d'administration :
 
-- [Sites](/sites/sites.md): lists and provides access to all of the sites on the OmekaS install. (Computer icon)
-- Resources: content creation and metadata management
-    - [Items](/content/items.md): manage the individual resources of your install. (Box icon)
-    - [Item Sets](/content/item-sets.md): manage aggregated groups of items. (Multiple boxes icon)
-    - [Vocabularies](/content/vocabularies.md): manage the metadata standards for your install. (Closed book icon)
-    - [Resource Templates](/content/resource-template.md): manage predefined sets of properties (fields) to use when creating items. (Pencil in a square icon)
-- Admin: installation-level administration (note that some of these tabs may not be visible to all user levels)
-    - [Users](/users.md): manage users for the whole install and individual sites. (head and shoulders person icon)
-    - [Modules](/modules/modules.md): add functionality to your sites. (Plus sign in square icon)
-    - [Jobs](https://github.com/omeka/omeka-s-enduser/blob/master/jobs.md): displays the user-activated tasks which are currently running. NB: jobs only display when they are running. (Three bars icon)
-    - [Settings](https://github.com/omeka/omeka-s-enduser/blob/master/settings.md): manage the global settings for all sites, the admin dashboard and the site dashboards. (Gears icon)
+- [Sites](/sites/sites.md): Liste des sites de l'installation Omeka S et accès à leur administration. (icône ordinateur)
+- Ressources : création et gestion des contenus et des métadonnées :
+    - [Items](/content/items.md) : gestion de chacune des ressources. (icône boîte)
+    - [Item Sets](/content/item-sets.md): gestion des groupes de ressources (items). (icône plusieurs boîtes)
+    - [Vocabularies](/content/vocabularies.md): gestion des ontologies des métadonnées. (icône livre)
+    - [Resource Templates](/content/resource-template.md): gestion des modèles de formulaires prédéfinis de propriétés à utiliser pour créer des ressources (items). (crayon dans une icône carrée)
+- Admin: interface d'administration (à noter que certaines options ne sont pas accessibles à tous les rôles attribués aux usagers)
+    - [Users](/users.md): gestion des usagers pour l'ensemble de l'installation et chacun des sites. (icône buste)
+    - [Modules](/modules/modules.md): ajout de fonctionnalités nouvelles à l'installation. (signe + dans une icône carrée)
+    - [Travaux (Jobs)](https://github.com/omeka/omeka-s-enduser/blob/master/jobs.md): affiche les travaux en cours lancés par l'usager. NB: les travaux n'apparaissent que si ils sont actifs. (icône aux trois barres)
+    - [Paramètres (Settings)](https://github.com/omeka/omeka-s-enduser/blob/master/settings.md): gère les paramètres globaux de tous les sites, des tableaux de bord d'administration et de tous les sites. (icône engrenage)
 
-If you have installed modules, they may appear in the admin section of the left navigation below settings.
+Si vous avez installé des modules, ils peuvent apparaître à gauche sous les paramètres dans la section admin de la navigation.
 
-Note that users with more limited permissions will see only some of these navigation options.
+Notez que les utilisateurs disposant d'autorisations plus limitées ne verront que certaines de ces options de navigation.
 
-System Information
+### Information sur le système
 -------------------------------
 
-In the bottom right corner is a short display of the current version of Omeka S. Click the link labelled *System Information* to see a full page with details.
+Dans le coin en bas à droite se trouve un affichage succinct de la version courante de Omeka S. Cliquer sur le lien *System Information* permet d'accéder à une page avec tous les détails.
 
 ![Example system information page](/files/systeminfo.png)
