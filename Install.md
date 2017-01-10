@@ -1,17 +1,19 @@
-## Installation
+---
+title: Installation
+---
 
 Les instructions basiques pour procéder à l'installation à partir des sources sont précisées dans le [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) du dépôt github de Omeka S github.
 
-Si vous effectuez une installation à partir d'une version publiée en archive `zip`, vous pouvez aussi suivre les instructions du [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) ou les indications du tutoriel de Jim Groom [Installing Omeka S Alpha on Reclaim Hosting via Command Line](http://bavatuesdays.com/installing-omeka-s-alpha-on-reclaim-hosting-via-command-line/) (en anglais). 
+Si vous effectuez une installation à partir d'une version publiée en archive `zip`, vous pouvez aussi suivre les instructions du [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) ou les indications du tutoriel de Jim Groom [Installing Omeka S Alpha on Reclaim Hosting via Command Line](http://bavatuesdays.com/installing-omeka-s-alpha-on-reclaim-hosting-via-command-line/) (en anglais).
 
 Dès que vous avez correctement installé et configuré le fichier `database.ini`, vous pouvez rejoindre l'emplacement de votre installation Omeka S avec votre navigateur web.
 
-Lors de cet accès, vous devrez indiquer des informations relatives au premier usager ainsi que des informations basiques sur votre installation. 
+Lors de cet accès, vous devrez indiquer des informations relatives au premier usager ainsi que des informations basiques sur votre installation.
 
 ![Install dialog with options as described below](/files/os_install.png)
 
 Pour le premier usager, entrez :
-* une adresse *mail* 
+* une adresse *mail*
 * la confirmation de cette adresse *mail*
 * un *mot de passe*
 * la confirmation de ce *mot de passe*

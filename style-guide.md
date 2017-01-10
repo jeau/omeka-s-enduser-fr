@@ -2,27 +2,31 @@
 title: Style Guide
 ---
 
-## Terminology
-**Admin/Administrative Dashboard**: the dashboard for administration of the entire OmekaS install, where sites, items, vocabularies, modules, etc are managed. 
+## Terminologie
 
-**Site Dashboard**: dashboard for managing site content, arrangement, etc.
+**Admin/Administrative Dashboard**: le tableau de bord à partir duquel est administrée la totalité de l'installation Omeka S et d'où sont gérés items, vocabularies, modules, etc.
 
-**sidebar** the things which slide open on the right of the screen when you click an ellipses.
+**Site Dashboard**: tableau de bord spécifique à chaque site pour la gestion des contenus et de leur agencement, etc.
 
-Also see the [glossary](glossary.md)
+**sidebar**:  the things which slide open on the right of the screen when you click an ellipses.
 
-## Formatting
-Start each page with the following: [3 dashes, return]
-title: “Name of the Page” [return, 3 dashes] for Jekyll. 
+Voir aussi le [glossaire](glossary.md)
 
-Page file names should be lowercase with spaces represented by a dash (so admin-dashboard.md for Administrative Dashboard page). 
+## Formatage
 
-All relative links need to begin with .. (so .. / content / etc)
+Commencer chaque page du guide de la façon suivante pour Jekyll: [3 tirets, retour chariot] title: “Nom de la page” [retour chariot, 3 tirets].
 
-- Omeka S is written *with* a space between the Omeka and the S.
-  - Possesive is Omeka S's
-- Names of buttons in *italics*
-- Names of options in *italics*
+Les noms de pages doivent comporter des minuscules (non accentuées) et les espaces sont remplacés par des tirets(soit admin-dashboard.md pour Administrative Dashboard page).
+
+Tous les liens relatifs doivent commencer par .. (soit .. / content / etc.)
+
+- Omeka S s'écrit *avec* une space entre Omeka et le S.
+- Les intitulés de boutons sont en *italique*
+- Les intitulés d'options sont en *italique*
 - Describe icons based on their tooltip, ex. edit (pencil icon), delete (trash can icon), details (ellipses icon). This way the text is useful for people using screen readers as well as those who are not.
-- Add, Edit, and Delete processes should be described separately, each with their own heading. 
-- Use H2 (##) for each subsection of a documentation page.
+- Les actions Ajouter (Add), Editer (Edit) et (Delete) doivent êtres décrites séparément, chacune avec son propre entête.
+- Utiliser H2 (##) pour chaque sous-sections d'une page de la documentation.
+
+## Générer la documentation au format pdf
+
+pour la version française, utilisation de pandoc
