@@ -1,6 +1,4 @@
----
-title: Style Guide
----
+# Style Guide
 
 ## Terminologie
 
@@ -14,13 +12,13 @@ Voir aussi le [glossaire](glossary.md)
 
 ## Formatage
 
-Commencer chaque page du guide de la façon suivante pour Jekyll: [3 tirets, retour chariot] title: “Nom de la page” [retour chariot, 3 tirets].
-
 Les noms de pages doivent comporter des minuscules (non accentuées) et les espaces sont remplacés par des tirets(soit admin-dashboard.md pour Administrative Dashboard page).
 
 Tous les liens relatifs doivent commencer par .. (soit .. / content / etc.)
 
-- Omeka S s'écrit *avec* une space entre Omeka et le S.
+Chaque référence interne à une images à afficher est un chemin relatif débutant par ./ ou ../ suivi du chemin vers cette image ; si l'image est au même niveau que le document qui l'appelle, indiquer seulement son nom.
+
+- Omeka S s'écrit *avec* une espace entre Omeka et le S.
 - Les intitulés de boutons sont en *italique*
 - Les intitulés d'options sont en *italique*
 - Describe icons based on their tooltip, ex. edit (pencil icon), delete (trash can icon), details (ellipses icon). This way the text is useful for people using screen readers as well as those who are not.
@@ -29,4 +27,4 @@ Tous les liens relatifs doivent commencer par .. (soit .. / content / etc.)
 
 ## Générer la documentation au format pdf
 
-pour la version française, utilisation de pandoc
+pour la version francophone, utilisation de pandoc

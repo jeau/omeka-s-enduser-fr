@@ -1,6 +1,4 @@
----
-title: Installation
----
+# Installation
 
 Les instructions basiques pour procéder à l'installation à partir des sources sont précisées dans le [ReadMe](https://github.com/omeka/omeka-s/blob/develop/README.md) du dépôt github de Omeka S github.
 
@@ -10,7 +8,7 @@ Dès que vous avez correctement installé et configuré le fichier `database.ini
 
 Lors de cet accès, vous devrez indiquer des informations relatives au premier usager ainsi que des informations basiques sur votre installation.
 
-![Install dialog with options as described below](/files/os_install.png)
+![Install dialog with options as described below](./files/os_install.png)
 
 Pour le premier usager, entrez :
 * une adresse *mail*

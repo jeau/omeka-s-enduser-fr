@@ -1,6 +1,4 @@
----
-title: Réglages
----
+# Réglages
 
 Admin users may change the settings for the admin dashboard and general settings for sites using the *Settings* tab on the left side of the admin dashboard (gear icon).
 
@@ -8,7 +6,7 @@ Admin users may change the settings for the admin dashboard and general settings
 
 Global settings are only available to users with Site Administrator or Global Administrator user roles.
 
-![view of the global settings fields](/files/globalsettings.png)
+![view of the global settings fields](./files/globalsettings.png)
 
 The settings are as follows:
 

@@ -1,6 +1,4 @@
----
-title: Tableau de bord d'administration
----
+# Tableau de bord d'administration
 
 Le tableau de bord d'administration permet de gérer les contenus partagés par tous les sites créés sur l'installation Omeka S et d'accéder aux fonctionnalités principales de cette installation.
 
@@ -8,14 +6,14 @@ Le tableau de bord d'administration permet de gérer les contenus partagés par 
 
 Lorsqu'un usager se connecte, la première page à laquelle il accède est le tableau de bord d'administration.
 
-![Admin dashboard full view](/files/admindashfullview.png)
+![Copie d'écran complète du tableau de bord](./files/admindashfullview.png)
 
 En plus de la zone de navigation à gauche présente sur toutes les pages (voir ci-dessous), le tableau de bord d'administration présente deux zones : la gestion des ressources et et la gestion des sites.
 
 La zone de gestion des ressources (*Manage Resources*) affiche les  liens vers les ressources suivantes, leur nombre est indiqué entre parenthèses : [Items](/content/items.md), [Lots d'items (Sets)](/content/item-sets.md), [Ontologie (Vocabularies)](/content/vocabularies.md), et les [Modèles de ressources (Resource Templates)](/content/resource-template.md).
 En cliquant sur l'étiquette de la ressource, vous accédez à la page de navigation de cette ressource. En cliquant sur le bouton *Plus* à droite de l'étiquette, vous accédez à la page d'ajout de ce type de ressource.
 
-![Close up of manage resources and manage sites boxes](/files/admindashmanage.png)
+![Détail de la zone de gestion des ressources et des sites](./files/admindashmanage.png)
 
 La zone *Administration des sites (Manage Sites)* liste les [Sites](/sites/sites.md) hébergés par l'installation. Cliquez sur le nom d'un site vous permettra d'accéder à la partie publique de ce site et sur le bouton d'édition (le crayon) d'accéder à la page d'information et d'édition de ce site.
 
@@ -24,7 +22,7 @@ La zone *Administration des sites (Manage Sites)* liste les [Sites](/sites/sites
 
 Le contenu suivant apparaît sur le côté gauche du tableau de bord ainsi que sur toutes les pages de l'interface d'administration de l'installation.
 
-![View of the left hand navigation on the admin dashboard, which also appears consistently throughout the admin interface, with options as described below](/files/leftnav.png)
+![View of the left hand navigation on the admin dashboard, which also appears consistently throughout the admin interface, with options as described below](./files/leftnav.png)
 
 Dans le coin en haut à gauche est indiqué l'intitulé de l'installation. C'est un lien cliquable qui vous renverra toujours au tableau de bord d'administration.
 
@@ -34,7 +32,7 @@ En dessous du nom de l'usager connecté, se trouve un champ de recherche auquel 
 
 Les options de recherche avancée (points de suspension) permettent d'affiner la recherche par type de ressource ; en cliquant sur le bouton radio en regard d'un type de ressource, *items*, *item sets* (lots d'items) ou *médias* il est possible de restreindre la recherche à ce type de ressource.
 
-![Advanced search options](/files/search.png)
+![Options de recherche avancée](./files/search.png)
 
 La partie centrale de la colonne de gauche du tableau de bord est divisée en deux sections relatives aux sites, aux ressources et aux fonctions d'administration :
 
@@ -58,4 +56,4 @@ Notez que les utilisateurs disposant d'autorisations plus limitées ne verront q
 
 Dans le coin en bas à droite se trouve un affichage succinct de la version courante de Omeka S. Cliquer sur le lien *System Information* permet d'accéder à une page avec tous les détails.
 
-![Example system information page](/files/systeminfo.png)
+![Example system information page](./files/systeminfo.png)

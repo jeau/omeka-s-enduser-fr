@@ -1,40 +1,37 @@
----
-title: Items
----
+# Items
 
-Items are the building blocks of the Omeka system. 
+Les Items sont les briques de base d'un service Omeka.
 
-In Omeka S, items can be made available to you from the system administrator, and you may add items to your own site.
+Avec Omeka S, les items sont gérés et rendus disponibles à partir de l'interface d'administration, d'où vous pouvez aussi ajouter ces items dans vos propres sites.
 
-Items are listed in the *Items* tab (one box icon), found on the left-hand navigation of the administrative dashboard. 
+La liste des items est accessible à partir du lien *Items* (icône avec un seule cube), situé dans la zone latérale gauche de l'interface d'administration.
 
-![Basic view of admin items page, showing a handful of item resources](../content/contentfiles/items_browse.png)
+![Vue partielle de la page d'administration des items montrant quelques ressources](../content/contentfiles/items_browse.png)
 
-Each item appears as a row, with: the *Title*; icons to *edit* (pencil), *delete* (trash can), or *view details* (ellipses); the *Class*; the item’s *Owner*; and *Date Created*. 
+Chaque item apparait sur une ligne avec : le titre (*Title*) ; les icônes d'*édition* (crayon), *suppression* (poubelle) et *afficher les infos* (points de suspensions) ; la classe (*Class*) ; le propriétaire de l'item (*Owner*) ; et la date de création (*Date Created*).
 
-Options for navigating and creating items display above the table of items. 
+Les options de navigation et de création d'éléments sont affichées au-dessus de la table des items. Sur la partie gauche, s'affiche le nombre de pages d'items, et des flèches pour parcourir ces pages. Le champ contenant numéro de la page courante est éditable ; entrez un numéro de page valide et appuyez sur la touche *Entrée* ou *Retour* sur votre clavier pour accéder à cette page.
 
-On the left side is a display for the number of pages of items, with forward and back arrows. The current page number is an editable field - enter any valid page number and hit return/enter on your keyboard to go to that page. 
-
-In the center top is a button for [Advanced Search](../search.md). 
+In the center top is a button for [Advanced Search](../search.md).
 
 On the right top of the Items window, above the table of items, is the *Add new item* button. Just above the table on the right are options for sorting the table of items, with two dropdown menus. The first lets you select between *Title*, *Class*, *Owner,* and *Date Created*; the second allows you to sort ascending or descending. To apply, click the *sort* button.
 
 ## View
+
 To quickly view the basic information about an item, click the *view details* (ellipses) button in the row for the item, located next to the edit and delete buttons. This will open a drawer to the right of the list which displays the item’s title,  description, and visibility.
 
 For a more detailed look at an individual item, click on its title in the items browse table or when viewing its details  
-When you view an individual item , there are tabs for the item’s *Metadata* and its *Linked Resources*. The right side of the page displays the item’s media, any *item sets* to which it belongs, its creation date, owner, and visibility. 
+When you view an individual item , there are tabs for the item’s *Metadata* and its *Linked Resources*. The right side of the page displays the item’s media, any *item sets* to which it belongs, its creation date, owner, and visibility.
 
 ![Item browse view with details open for Case of Identity. Links to item view page squared in blue](../content/contentfiles/items_detailview.png) The blue squares indicate where to click to open the full item view.
 
 An item’s *linked resources* (shown below) are resources, which have been added as properties to the item. The table on this tab gives the predicate (property) and a link to each object (item).
 
-![Item view for Case of Identity, showing linked resources](../content/contentfiles/items_linked.png) 
+![Item view for Case of Identity, showing linked resources](../content/contentfiles/items_linked.png)
 
 ## Adding an Item
 
-To add a new item, begin by selecting the the *Add new item* button. 
+To add a new item, begin by selecting the the *Add new item* button.
 
 Before creating items, site admins may want to create [Resource Templates](/content/resource-template.md), which will load specific fields for various item types.
 
@@ -48,7 +45,7 @@ The Values tab is where you enter metadata, such as title, description, etc.
   * If not using a resource template, select a class from the dropdown menu (these are populated from the [Vocabularies](/content/vocabularies.md) in your installation).
 1. Add information to the fields provided.  
   1. You may add text, a resource from the installation, or an external link in each field.  
-    * **Text** fields are entered with text, which can include HTML code. The keyboard at the top of the field input indicates text. The globe icon which appears next to it can be used to set language. 
+    * **Text** fields are entered with text, which can include HTML code. The keyboard at the top of the field input indicates text. The globe icon which appears next to it can be used to set language.
 ![image of text input field with keyboard icon indicating text input, the globe icon for setting language, and a trashcan delete icon](../content/contentfiles/items_textedit.png)
     * **Omeka Resource** fields create an internal link between the resource you are creating and the resource which fills that field. You have the option to use either another item or an item set. Once you select an item or item set, detailed information will load, and you must click *select resource* to finish linking the resources. You can also click the *X* button in the upper right-hand corner to go back to the list of items or item sets.
      ![Select Item menu with list of items to link in edit item view](../content/contentfiles/items_addresource.png)
@@ -81,7 +78,7 @@ You can edit media later by going by editing an item, navigating to the *media* 
 ### Item Sets
 You can only add items to existing item sets.
 
-From the right-hand menu, click on the owner of an item set, then click the name of the item set to add the item to that set. 
+From the right-hand menu, click on the owner of an item set, then click the name of the item set to add the item to that set.
 
 You can also filter item sets using the text entry bar above the list of users.
 
@@ -91,9 +88,9 @@ To remove a connection between an item and item set, click the delete (trash can
 
 
 ### Visibility
-Use the *make public/private* button (eye icon) to set whether the item is visible to the public or only to users of the Omeka S system. 
+Use the *make public/private* button (eye icon) to set whether the item is visible to the public or only to users of the Omeka S system.
 
-![make public button showing an eye icon](../content/contentfiles/item_public.png) Public 
+![make public button showing an eye icon](../content/contentfiles/item_public.png) Public
 
 ![make private button showing an eye icon with a diagonal slash through it](../content/contentfiles/item_private.png)  Private
 

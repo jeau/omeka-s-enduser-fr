@@ -1,6 +1,4 @@
----
-title: À-propos de Omeka S
----
+# À-propos de Omeka S
 
 Omeka S est un système de publication sur le web destiné aux universités, galeries, bibliothèques, archives, musées et muséums. Il permet de créer un réseau local de sites reposant sur des sélections dans un ensemble de contenus et de métadonnées partagés et rassemblés de façon coopérative.
 
