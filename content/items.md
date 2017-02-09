@@ -1,6 +1,6 @@
 # Items
 
-Les Items sont les briques de base d'un service Omeka.
+Les i` tems sont les briques de base d'un service Omeka.
 
 Avec Omeka S, les items sont gérés et rendus disponibles à partir de l'interface d'administration, d'où vous pouvez aussi ajouter ces items dans vos propres sites.
 
@@ -12,7 +12,7 @@ Chaque item apparait sur une ligne avec : le titre (*Title*) ; les icônes d'*é
 
 Les options de navigation et de création d'éléments sont affichées au-dessus de la table des items. Sur la partie gauche, s'affiche le nombre de pages d'items, et des flèches pour parcourir ces pages. Le champ contenant numéro de la page courante est éditable ; entrez un numéro de page valide et appuyez sur la touche *Entrée* ou *Retour* sur votre clavier pour accéder à cette page.
 
-In the center top is a button for [Advanced Search](../search.md).
+Au centre de cette partie haute de la table se trouve un bouton vers la [recherche avancée](../search.md).
 
 On the right top of the Items window, above the table of items, is the *Add new item* button. Just above the table on the right are options for sorting the table of items, with two dropdown menus. The first lets you select between *Title*, *Class*, *Owner,* and *Date Created*; the second allows you to sort ascending or descending. To apply, click the *sort* button.
 
